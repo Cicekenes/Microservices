@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5E31BC4B-A0D9-4825-8454-96CE3F65E196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A531C894-AAFC-4768-A316-CCBCF2775182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourseServices.Catalog", "Services\Catalog\FreeCourseServices.Catalog\FreeCourseServices.Catalog.csproj", "{8C9735F8-1A11-4AA3-B049-6E5C957FBE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{44F5B676-1903-4BB8-8EB9-1BA4CF50867F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Shared", "Shared\FreeCourse.Shared\FreeCourse.Shared.csproj", "{8CA173BC-7846-432D-9C6B-7513F76234B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9735F8-1A11-4AA3-B049-6E5C957FBE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9735F8-1A11-4AA3-B049-6E5C957FBE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9735F8-1A11-4AA3-B049-6E5C957FBE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9735F8-1A11-4AA3-B049-6E5C957FBE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA173BC-7846-432D-9C6B-7513F76234B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA173BC-7846-432D-9C6B-7513F76234B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA173BC-7846-432D-9C6B-7513F76234B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA173BC-7846-432D-9C6B-7513F76234B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A531C894-AAFC-4768-A316-CCBCF2775182} = {5E31BC4B-A0D9-4825-8454-96CE3F65E196}
+		{8C9735F8-1A11-4AA3-B049-6E5C957FBE61} = {A531C894-AAFC-4768-A316-CCBCF2775182}
+		{8CA173BC-7846-432D-9C6B-7513F76234B1} = {44F5B676-1903-4BB8-8EB9-1BA4CF50867F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95894079-80A7-4B9C-BEAB-315A9C1122F7}
+	EndGlobalSection
+EndGlobal
